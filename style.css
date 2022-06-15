@@ -8,6 +8,8 @@
   align-items: center;
   justify-content: space-between;
   padding: 10px;
+  background-color: rgb(218, 218, 255);
+  font-size: 35px;
 }
 
 .menu {
@@ -33,12 +35,22 @@
   margin: 0;
 }
 
-.contact-link{
-    text-decoration: none;
+.contact-link {
+  text-decoration: none;
 }
 
-h2{
-    text-align: center;
+h2 {
+  text-align: center;
+  padding: 50px 0 20px;
+  font-size: 70px;
+}
+
+h3 {
+  font-size: 50px;
+}
+
+p {
+  font-size: 35px;
 }
 
 .new-articles {
@@ -54,4 +66,22 @@ h2{
   margin-top: 10px;
   text-align: center;
   color: rgb(0, 0, 75);
+}
+
+.daily-asana article {
+  display: flex;
+  padding: 30px;
+}
+
+.daily-asana img {
+  width: 70%;
+  margin-right: 40px;
+}
+
+.daily-asana-txt {
+  max-width: 50%;
+}
+
+.daily-asana-txt h3 {
+  margin-bottom: 45px;
 }
